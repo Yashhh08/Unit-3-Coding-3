@@ -1,0 +1,31 @@
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+  margin-bottom: 30px;
+  height: 50px;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: black;
+}
+
+form {
+  display: grid;
+  gap: 20px;
+  width: 20%;
+  margin: auto;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 30px 30px 60px 30px;
+  border-radius: 10px;
+}
+
+form div {
+  font-size: 25px;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}

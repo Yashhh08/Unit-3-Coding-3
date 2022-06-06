@@ -1,0 +1,31 @@
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: black;
+}
+
+#purchased_vouchers {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  gap: 25px;
+}
+
+.voucher {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+  font-size: 25px;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
